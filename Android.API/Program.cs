@@ -28,7 +28,7 @@ namespace Android.API
 
 			app.UseSwagger();
 			app.UseSwaggerUI();
-
+			app.UseCors();
 			app.UseHttpsRedirection();
 			app.UseAuthorization();
 			app.MapControllers();
